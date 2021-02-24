@@ -32,7 +32,7 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Center(child: Text("HOME",style: TextStyle(color: Colors.black87),)),
+        title: Center(child: Text("HOME",style: TextStyle(color: Colors.black87,fontWeight: FontWeight.bold),)),
         backgroundColor: Colors.white,
         elevation: 0,
         leading:   Center(
@@ -77,7 +77,7 @@ class _HomeState extends State<Home> {
                       children: [
                         Padding(
                           padding: const EdgeInsets.all(20.0),
-                          child: Text("APPRECIATE ALL",style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold,fontFamily: 'Helvetica'),),
+                          child: Text("APPRECIATE ALL",style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold),),
                         ),
                       ],
                     ),

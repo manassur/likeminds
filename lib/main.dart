@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
-
+        fontFamily: "Helvetica",
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
@@ -54,7 +54,7 @@ class _MyHomePageState extends State<MyHomePage> {
          child: Scaffold(
            backgroundColor: Colors.grey[100],
            appBar: AppBar(
-             title: Center(child: Text("PEOPLE",style: TextStyle(color: Colors.black87),)),
+             title: Center(child: Text("PEOPLE",style: TextStyle(color: Colors.black87,fontWeight: FontWeight.bold),)),
              backgroundColor: Colors.white,
              elevation: 0,
              leading:  Center(
@@ -97,13 +97,13 @@ class _MyHomePageState extends State<MyHomePage> {
                    Tab(
                      child: Align(
                        alignment: Alignment.center,
-                       child: Text("LIST VIEW"),
+                       child: Text("LIST VIEW",style: TextStyle(fontWeight: FontWeight.bold),),
                      ),
                    ),
                    Tab(
                      child: Align(
                        alignment: Alignment.center,
-                       child: Text("CARDS"),
+                       child: Text("CARDS",style: TextStyle(fontWeight: FontWeight.bold),),
                      ),
                    ),
                  ]),
