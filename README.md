@@ -1,7 +1,7 @@
 # hobby
 
 A flutter UI design for an app that helps you meet people in your field.
-![Screenshot](capture.PNG)
+![Screenshot](Capture.PNG)
 
 Design Credit
 
